@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang = "en">
+
+    
+<head>
+    <link rel="icon" href=  "./Images/VSAlogo.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>TCNJ VSA Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logoContainer"> 
+                <a href="index.html"><img src="./Images/VSAlogo.jpg" alt="logo" class="logo"></a>
+            </div>
+            
+            <div class="navBarLinks">
+                <ul>
+                    <li><a href="contactus.html" class ="navBarSelector link-animation hideonmobile">Contact Us</a></li>
+                    <li><a href="eboard.html" class ="navBarSelector link-animation hideonmobile">Eboard</a></li>
+                    <li><a href="events.html" class ="navBarSelector link-animation hideonmobile">Events</a></li>
+                    <li><a href="culture.html" class ="navBarSelector link-animation hideonmobile">Culture</a></li>
+                    <li class="menubtn hideondesktop"><a><img src="./Images/menu.png" onclick=showSidebar() alt="hamburgerMenu"></a></li>
+                </ul>
+                <ul class="sidebar">
+                   <li><a><img src="./Images/close.png" alt="closeMenu" onclick=hideSidebar()></a></li>
+                   <li><a href="events.html" class ="navBarSelector link-animation">Events</a></li>
+                   <li><a href="contactus.html" class ="navBarSelector link-animation">Contact Us</a></li>
+                   <li><a href="eboard.html" class ="navBarSelector link-animation">Eboard</a></li>
+                   <li><a href="culture.html" class ="navBarSelector link-animation" >Culture</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<!-- Mainbanner -->
+    <div class="mainPgWrapper indexmainPgBG">
+        <div class="MainContent">
+            <h1>VSA</h1>
+            <p class = "HeaderTxt">Welcome to the Vietnamese Student Association at TCNJ!</p>
+        </div>
+    </div>
+
+<!-- 1 Sub-Banner -->
+    <div class="contentSection contentSection1bg">
+        <div class="leftsideTxt"> 
+            <p class="subSecH1"> Xin Chào </p>
+            <p class="subSecH2"> Welcome </p >
+
+            <div class="subSectxt">Come join us bi-weekly at the TCNJ Intercultural Center to celebrate Vietnamese Culture and make new friends. </div>
+            <div class="ButtonContainer">
+                <a href="events.html#currentEvents" class="Button">How to join</a>
+            </div>
+        </div>
+        <div class="subSecLogoContainer">
+            <img src="./Images/VSAlogo.jpg" class="subSecLogo" alt="VSA logo">
+        </div>
+    </div>
+
+<!-- 2 Sub-Banner -->
+    <div class = "membercountSection">
+        <div class="membercountSectionContainer">
+            <div class="membercountTXT">140</div>
+            <div class="membercountSubTXT">Members</div>
+        </div>
+    </div>
+    
+<!-- 3 Sub-Banner -->
+    <div class="contentSection anoucementSection">
+        <div> 
+            <p class="subSecH1"> Thông Cao </p>
+            <div class="anoucementSubText"><p class="subSecH2"> Announcements </p></div>
+            </div>
+                <img src="./Images/TEAtime.jpeg" class="anoucementsubImg" alt="tea-time-banner">
+                <img src="./Images/EboardAPP.jpeg" class="anoucementsubImg" alt="Eboard-banner">
+                <img src="./Images/SpringRollin.jpeg" class="anoucementsubImg" alt="Springrollin-banner">
+
+            <div class="journalIndexSubText">Take a look at our past events</div>
+            <div class="ButtonContainer"><a href="events.html#pastEvents" class="Button">Journal</a></div>
+    </div>
+
+<!-- 4 Sub-Banner -->
+<div class="contentSection4bg">
+    <div class="leftsideTxt"> 
+        <p class="subSecH1">Khách Quan</p>
+        <p class="subSecH2">Our Mission</p >
+
+        <div class="subSectxt">TCNJ’s Vietnamese Student Association seeks to nurture the Vietnamese community on campus through major events, bi-weekly meetings, and our collaboration with the TCNJ Pan Asian Alliance. We welcome everyone to learn more about Vietnamese culture!</div>
+        <div class="ButtonContainer"><a href="culture.html" class="Button">Learn about Viet Culture</a></div>
+    </div>
+</div>
+
+<!-- 5 Sub-Banner -->
+<div class="contentSection5 contentSection5bg">
+    <div class="leftsideTxt"> 
+        <p class="subSecH1"> Theo Chúng Tôi </p>
+        <p class="subSecH2"> Follow Us </p >
+    </div>
+    <div class="subSecLogoContainer">
+        <img src="./Images/Instagramlogo.webp" class="subSecLogo" alt="Instagramlogo">
+    </div>
+</div>
+<div class="ButtonContainer followUsBtn ">
+<a href="https://www.instagram.com/tcnjvsa/" class="Button">@tcnjvsa</a></div>
+
+<!-- 6 Sub-Banner -->
+<div class="contentSection6">
+</div>
+
+</body>
+
+<footer>
+    <p class ="footerTxt">The College Of New Jersey Vietnamese Student Association</p>
+    <p class ="footerTxt subtext">Email: vsa@tcnj.edu</p>
+</footer>
+
+
+
+</html>
