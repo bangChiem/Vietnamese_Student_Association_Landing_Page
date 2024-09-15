@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <link rel="icon" href=  "./Images/VSAlogo.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>TCNJ VSA Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logoContainer"> 
+                <a href="index.html"><img src="./Images/VSAlogo.jpg" alt="logo" class="logo"></a>
+            </div>
+            
+            <div class="navBarLinks">
+                <ul>
+                    <li><a href="contactus.html" class ="navBarSelector link-animation hideonmobile">Contact Us</a></li>
+                    <li><a href="eboard.html" class ="navBarSelector link-animation hideonmobile">Eboard</a></li>
+                    <li><a href="events.html" class ="navBarSelector link-animation hideonmobile">Events</a></li>
+                    <li><a href="culture.html" class ="navBarSelector link-animation hideonmobile">Culture</a></li>
+                    <li class="menubtn hideondesktop"><a><img src="./Images/menu.png" onclick=showSidebar() alt="hamburgerMenu"></a></li>
+                </ul>
+                <ul class="sidebar">
+                   <li><a><img src="./Images/close.png" alt="closeMenu" onclick=hideSidebar()></a></li>
+                   <li><a href="events.html" class ="navBarSelector link-animation">Events</a></li>
+                   <li><a href="contactus.html" class ="navBarSelector link-animation">Contact Us</a></li>
+                   <li><a href="eboard.html" class ="navBarSelector link-animation">Eboard</a></li>
+                   <li><a href="culture.html" class ="navBarSelector link-animation" >Culture</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<!-- Mainbanner -->
+<div class="mainPgWrapper contactUsBigBanner">
+    <div class="MainContent">
+        <h1>VSA</h1>
+        <p class = "HeaderTxt">Contact Us</p>
+    </div>
+</div>
+
+    <div class="contentSection anoucementSection">
+        <div>
+            <h1 class="formheader">Nói Với Chúng Tôi </h1>
+            <p class="subSecH2">Talk to Us</p>
+
+            <div>
+                <form action="mailto:chiemb1@tcnj.edu" method="post" enctype="text/plain"> 
+                    <label class="labeltext" for="name">First Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label class="labeltext" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." required="">
+                    <label class="labeltext" for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Your message..."></textarea>
+                    <div class="ButtonContainer"> 
+                        <input class="Button" type="submit" value="Submit Feedback"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="contentSection">
+        <div class="leftsideTxt"> 
+            <p class="subSecH1"> GroupMe </p>
+
+            <div class="subSectxt GroupMetxt">Our main way to chat amongst club members. Please join our GroupMe if you want to chat with us and the entire org!</div>
+            <div class="ButtonContainer">
+                <a href="https://groupme.com/join_group/95925175/1Rm06agD" class="Button">Join our GroupMe</a>
+            </div>
+        </div>
+        <div class="subSecLogoContainer">
+            <img src="./Images/GroupMe Logo.png" class="subSecLogo" alt="GroupMe logo">
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p class ="footerTxt">The College Of New Jersey Vietnamese Student Association</p>
+    <p class ="footerTxt subtext">Email: vsa@tcnj.edu</p>
+</footer>
+
+
+</html>
