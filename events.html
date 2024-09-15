@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<head>
+    <link rel="icon" href=  "./Images/VSAlogo.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>TCNJ VSA Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logoContainer"> 
+                <a href="index.html"><img src="./Images/VSAlogo.jpg" alt="logo" class="logo"></a>
+            </div>
+            
+            <div class="navBarLinks">
+                <ul>
+                    <li><a href="contactus.html" class ="navBarSelector link-animation hideonmobile">Contact Us</a></li>
+                    <li><a href="eboard.html" class ="navBarSelector link-animation hideonmobile">Eboard</a></li>
+                    <li><a href="events.html" class ="navBarSelector link-animation hideonmobile">Events</a></li>
+                    <li><a href="culture.html" class ="navBarSelector link-animation hideonmobile">Culture</a></li>
+                    <li class="menubtn hideondesktop"><a><img src="./Images/menu.png" onclick=showSidebar() alt="hamburgerMenu"></a></li>
+                </ul>
+                <ul class="sidebar">
+                   <li><a><img src="./Images/close.png" alt="closeMenu" onclick=hideSidebar()></a></li>
+                   <li><a href="events.html" class ="navBarSelector link-animation">Events</a></li>
+                   <li><a href="contactus.html" class ="navBarSelector link-animation">Contact Us</a></li>
+                   <li><a href="eboard.html" class ="navBarSelector link-animation">Eboard</a></li>
+                   <li><a href="culture.html" class ="navBarSelector link-animation" >Culture</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mainPgWrapper eventsBanner">
+        <div class="MainContent">
+            <div>
+            <h1>VSA</h1>
+            <p class = "HeaderTxt">Events</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="currentEvents" class="SectionWrapper first">
+        <div class="eventsHeader">
+            <h1>Biến Sự</h1>
+            <h2>Events</h2>
+        </div>
+            <div class="eventsSection">
+                <div class="eventsTxtContainer">
+                    <div class="leftSideHeader">
+                        GBM Dates
+                    </div>
+                    <div class="leftSideHeader">
+                        2023-2024
+                    </div>
+                    <div class="captionTxt">
+                        <span style="text-decoration:underline; font-style: italic;">A great way for first time members to start becoming active in VSA is through coming to our GBM's.</span> GBM's stand for General Board Meetings. These take place bi-weekly at 6:00pm and are open to any TCNJ student to come join. Activities range from tasting delicious Vietnamese Spring Rolls or competitive man-hunt tournaments. We look forward to seeing you there!
+                    </div>  
+                    <ul>
+                        <li>5-1-24 6:00pm</li>
+                        <li>4-17-24 6:00pm</li>
+                        <li>4-3-24 6:00pm</li>
+                    </ul>  
+
+                    <div class="ButtonContainer hideonmobile">
+                        <a href="#map" class="Button">GBM location</a>
+                    </div>
+
+                </div>
+
+                <div class="eventsImgContainer">
+                    <img src="./Images/VSAlogo2.png">
+                </div>
+
+                <div class="ButtonContainer hideondesktop">
+                    <a href="events.html" class="Button">GBM location</a>
+                </div>
+        </div>
+    </div>
+
+    <div class="SectionWrapper">
+            <div class="eventsSection">
+                <div class="eventsTxtContainer">
+                    <div class="leftSideHeader Upcoming">
+                        Upcoming Events
+                    </div>
+                    <div class="leftSideHeader Upcoming HeaderBottom">
+                        EBOARD ELECTION
+                    </div>
+                    <div class="captionTxt2">
+                        Want to join the 2024-2025 Eboard? Click the button below to fill out a application form!
+                    </div>  
+
+                    <div class="ButtonContainer hideonmobile">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJm_WQzOYaLTcXio2_I2S-j1W6rM7809Yqa0MH21FP5EfD9g/viewform" class="Button">Apply</a>
+                    </div>
+
+                </div>
+
+                <div class="eventsImgContainer">
+                    <img src="./Images/EboardAPP.jpeg">
+                </div>
+
+                <div class="ButtonContainer hideondesktop">
+                    <a href="events.html" class="Button">Apply</a>
+                </div>
+        </div>
+    </div>
+
+    <div class="SectionWrapper">
+        <div id="pastEvents" class="eventsSection videoSection">
+            <div class="eventsTxtContainer">
+                <div class="leftSideHeader Past">
+                    Past Events 3/20
+                </div>
+                <div class="leftSideHeader Past HeaderBottom">
+                    SPRING ROLLIN 
+                </div>
+                <div class="captionTxt2">
+                    A SAF funded GBM where Members enjoyed delicious Vietnamese Spring Rolls and Karaoke! The video below is a vlog of our eboard video of our spring roll bonding.
+                </div>  
+            </div>
+
+            <div class="eventsImgContainer">
+                <img src="./Images/SpringRollin.jpeg">
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="zoom" src="./Images/SpringRollin1.jpg" style="width:100%">
+            <img class="zoom" src="./Images/SprinRollin2.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img class="zoom" src="./Images/SpringRollin3.jpg" style="width:100%">
+            <img class="zoom" src="./Images/SpringRollin4.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img class="zoom" src="./Images/SprinRollin5.jpg" style="width:100%">
+            <img class="zoom" src="./Images/SprinRollin6.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img class="zoom" src="./Images/SpringRollin7.jpg" style="width:100%">
+            <img class="zoom" src="./Images/SpringRollin8.jpg" style="width:100%">
+        </div>
+    </div>
+
+    
+    <div class="videoContainer">
+        <iframe src="https://www.youtube.com/embed/279gvC4Gt2c?si=MKV5j4DhZkyCYabx" title="VSA SpringRollin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="SectionWrapper">
+        <div class="eventsSection videoSection">
+            <div class="eventsTxtContainer">
+                <div class="leftSideHeader Past">
+                    Past Events
+                </div>
+                <div class="leftSideHeader Past HeaderBottom">
+                    VSA BY NIGHT
+                </div>
+                <div class="captionTxt2">
+                    VSA's largest event to date. A event influenced by the popular show Paris By Night a Vietnamese American television program. VSA members and TCNJ students and staff enjoyed free Vietnamese food from Fried Spring Rolls (Chả Giò), Spring Rolls (Gỏi Cuốn), Viet Sausages (Chả Lụa). The program also consisted of live performances and a open dance floor with a DJ!
+                </div>  
+            </div>
+
+            <div class="eventsImgContainer">
+                <img src="./Images/VSABNInsta.jpeg">
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="zoom" src="./Images/VSABN2.jpg">
+            <img class="zoom" src="./Images/VSABN11.jpg">
+            <img class="zoom" src="./Images/VSABN1.1.jpg">
+            <img class="zoom" src="./Images/VSABN10.jpg">
+            <img class="zoom" src="./Images/VSABN3.jpg">
+        </div>
+        <div class="column">
+            <img class="zoom" src="./Images/VSABN13.jpg">
+            <img class="zoom" src="./Images/VSABN5.jpg">
+            <img class="zoom" src="./Images/VSABN12.jpg">
+            <img class="zoom" src="./Images/VSABN4.jpg">
+            <img class="zoom" src="./Images/VSABN14.jpg">
+        </div>
+        <div class="column">
+            <img class="zoom" src="./Images/VSABN6.jpg">
+            <img class="zoom" src="./Images/VSABN7.jpg">
+            <img class="zoom" src="./Images/VSABN15.jpg">
+            <img class="zoom" src="./Images/VSABN16.jpg">
+            <img class="zoom" src="./Images/VSABN17.jpg">
+        </div>
+        <div class="column">
+            <img class="zoom" src="./Images/VSABN18.jpg">
+            <img class="zoom" src="./Images/VSABN9.jpg">
+            <img class="zoom" src="./Images/VSABN8.jpg">
+            <img class="zoom" src="./Images/VSABN19.jpg">
+            <img class="zoom" src="./Images/VSABN20.jpg">
+        </div>
+    </div>    
+</div>
+
+<div class="SectionWrapper">
+    <div class="eventsSection videoSection">
+        <div class="eventsTxtContainer">
+            <div class="leftSideHeader Past">
+                Past Events
+            </div>
+            <div class="leftSideHeader Past HeaderBottom">
+                QUAT N SIP
+            </div>
+            <div class="captionTxt2">
+                GBM members enjoyed a relaxing day of painting on fans and drank refreshing Vietnamese tea(Chè)
+            </div>  
+        </div>
+
+        <div class="eventsImgContainer">
+            <img src="./Images/QuatNSip.jpeg">
+        </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <img class="zoom" src="./Images/Quat1.jpg" style="width:100%">
+        <img class="zoom" src="./Images/Quat2.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img class="zoom" src="./Images/Quat3.jpg" style="width:100%">
+        <img class="zoom" src="./Images/Quat4.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img class="zoom" src="./Images/Quat5.jpg" style="width:100%">
+        <img class="zoom" src="./Images/Quat6.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img class="zoom" src="./Images/Quat7.jpg" style="width:100%">
+        <img class="zoom" src="./Images/Quat8.jpg" style="width:100%">
+    </div>
+</div>
+</div>
+
+    <div id="map" class="SectionWrapper last">
+        <div class="mapcontainer">
+            <div class="subSecH1">GBM 
+                <div>Location</div><div class="subSectxt">General board meetings take place in the Intercultural Center in Roscoe L. West</div></div>
+            <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1501.5652573440464!2d-74.77988831341175!3d40.27100498554801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e2aa5587b03b%3A0x2e30a645ef2e464a!2sRoscoe%20L.%20West%20Hall%2C%20Metzger%20Dr%2C%20Ewing%20Township%2C%20NJ%2008628!5e0!3m2!1sen!2sus!4v1713395464066!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <p class ="footerTxt">The College Of New Jersey Vietnamese Student Association</p>
+    <p class ="footerTxt subtext">Email: vsa@tcnj.edu</p>
+</footer>
+
+
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang = "en">
+    
+<head>
+    <link rel="icon" href=  "./Images/VSAlogo.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>TCNJ VSA Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logoContainer"> 
+                <a href="index.html"><img src="./Images/VSAlogo.jpg" alt="logo" class="logo"></a>
+            </div>
+            
+            <div class="navBarLinks">
+                <ul>
+                    <li><a href="contactus.html" class ="navBarSelector link-animation hideonmobile">Contact Us</a></li>
+                    <li><a href="eboard.html" class ="navBarSelector link-animation hideonmobile">Eboard</a></li>
+                    <li><a href="events.html" class ="navBarSelector link-animation hideonmobile">Events</a></li>
+                    <li><a href="culture.html" class ="navBarSelector link-animation hideonmobile">Culture</a></li>
+                    <li class="menubtn hideondesktop"><a><img src="./Images/menu.png" onclick=showSidebar() alt="hamburgerMenu"></a></li>
+                </ul>
+                <ul class="sidebar">
+                   <li><a><img src="./Images/close.png" alt="closeMenu" onclick=hideSidebar()></a></li>
+                   <li><a href="events.html" class ="navBarSelector link-animation">Events</a></li>
+                   <li><a href="contactus.html" class ="navBarSelector link-animation">Contact Us</a></li>
+                   <li><a href="eboard.html" class ="navBarSelector link-animation">Eboard</a></li>
+                   <li><a href="culture.html" class ="navBarSelector link-animation" >Culture</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="mainPgWrapper CultureMainBanner">
+        <div class="MainContent">
+            <div>
+            <h1>VSA</h1>
+            <p class = "HeaderTxt">Culture</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="currentEvents" class="SectionWrapper first">
+        <div class="eventsHeader AboutVietnamHeader">
+            <h1>Văn Hóa</h1>
+            <h2>Culture</h2>
+        </div>
+            <div class="eventsSection">
+                <div class="eventsImgContainer">
+                    <img src="./Images/Vietnam.png">
+                </div>
+
+
+                <div class="eventsTxtContainer">
+                    <div class="leftSideHeader">
+                        About Vietnam
+                    </div>
+                    <div class="leftSideHeader AboutVietnam">
+                        And Its Culture
+                    </div>
+
+                        <div class="captionTxt cultureCaptionTxt">
+                            <div class="cultureCaptionTxtHeader">Geography</div>
+                            Located in South East Asia, Vietnam is the eastern edge of Indochina. Vietnam has a very diverse landscape from mountainous terrain, forests, wetlands, and a long coastline. There are plenty of breath-taking views in Vietnam.
+                        </div>
+
+                        <div class="captionTxt cultureCaptionTxt">
+                            <div class="cultureCaptionTxtHeader">Filial Piety</div>
+                            Filial Piety is critical part in Vietnamese culture. In many homes you can find altars of paintings, incense candles, food offerings to loved passed ones. 
+                        </div>
+
+                        <div class="captionTxt cultureCaptionTxt">
+                            <div class="cultureCaptionTxtHeader">Major Celebrations</div>
+                            Tết(Vietnamese new years) is one of the largest celebrations held in Vietnam. Family often come together to celebrate and it is common for many small businesses to close during the celebration period. Cuisines such as Bò Kho, a rich and expensive, beefy dish is served to commemorate the new year. Additionally, lucky red envelopes, filled with money, are often given to children in celebration of the new year.
+                        </div>
+
+
+
+                </div>
+        </div>
+    </div>
+
+    <div class="SectionWrapper last">
+            <div class="slideshow-container">
+                <div class="eventsHeader photoSection">
+                    <h1>Hình</h1>
+                    <h2>Photos of Vietnam</h2>
+                </div>
+                <div class="mySlides fade">
+                    <img src="./Images/SaigonSklyine.jpg" style = "width: 100%;">
+                    <div class="text">A picture of the vibrant Saigon city skyline <a href="https://unsplash.com/photos/high-rise-building-near-body-of-water-during-daytime-soYzQJvctKI">@Peter Nguyen</a></div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="./Images/HandBridge.png" style = "width: 100%;">
+                    <div class="text"> Located in Bà Nà Hills resort this breath-taking bridge atracts tourists from all over the world <a href="https://unsplash.com/photos/people-walking-on-bridge-during-daytime-PknaOrb1lVo">@Andreea Popa</a></div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="./Images/HaLong.png" style = "width: 100%;">
+                    <div class="text">A photograph of Vietnam's northern coastline, located in the city Hạ long<a href="https://unsplash.com/photos/high-angle-photography-of-boats-on-water-near-hill-during-daytime-vcu-OZBxxRk">@Ammie Ngo</a></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./Images/AoiDai.png" style = "width: 100%;">
+                    <div class="text">The Áo Dài is a staple garment for Vietnamese culture. It is usually made with silk and worn on special occasions such as Vietnamese New Years, Tết. <a href="https://unsplash.com/photos/a-woman-in-a-white-dress-and-hat-holding-a-basket-G4rTtC1uNww">@Dung Anh</a></div>
+                </div>
+
+                <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class = "next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+                <div style = "text-align: center" >
+                    <span class="dot" onclick="currentSlides(1)"></span>
+                    <span class="dot" onclick="currentSlides(2)"></span>
+                    <span class="dot" onclick="currentSlides(3)"></span>
+                    <span class="dot" onclick="currentSlides(4)"></span>
+                </div>
+                <script src="script.js"></script>
+                
+        </div>
+    </div>
+
+
+
+</body>
+
+<footer>
+    <p class ="footerTxt">The College Of New Jersey Vietnamese Student Association</p>
+    <p class ="footerTxt subtext">Email: vsa@tcnj.edu</p>
+</footer>
+
+</html>

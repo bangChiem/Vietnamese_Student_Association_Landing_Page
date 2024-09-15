@@ -1,0 +1,1300 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  margin-top: 0px;
+  background-color: #F8F8F8;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.mainPgWrapper h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 500;
+  color: #FFF7CF;
+  font-style: normal;
+  font-size: 35vw;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.7em;
+  text-shadow: 2px 2px 10px black;
+}
+
+.MainContentContact h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 500;
+  color: #FFF7CF;
+  font-style: normal;
+  font-size: 30em;
+  padding: 0;
+  margin-top: 0;;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 10px black;
+}
+
+p {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1em;
+  line-height:0.9;
+}
+
+.mainPgWrapper p {
+  color: #FFF7CF;
+}
+
+nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F8F8F8;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
+  color: black;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2em;
+  text-align: center;
+  border-bottom: 20px solid #D02506;
+  z-index: 1;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+
+nav li a {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  font-size: 10vw;
+  display: none;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 45%;
+  z-index: 999;
+  background-color: rgba(255,255,255,0.2);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  text-align: left;
+}
+
+ul img {
+  transition: transform .2s;
+}
+
+.sidebar li{
+  width: 100%;
+}
+
+.sidebar a{
+  width: 100%;
+}
+
+.logo {
+  padding-left: 60%;
+  max-width: 100%;
+
+  transition: transform .2s;
+}
+
+.logoContainer{
+  max-width: 120px;
+}
+
+nav img:hover{
+  transform: scale(1.15);
+}
+
+.navBarSelector {
+  margin: 0px 30px 0px 0px;
+  font-weight: 500;
+}
+
+.navBarLinks{
+  padding-right: 3%;
+  color: black;
+}
+
+.navBarLinks a{
+  color: black;
+}
+
+footer{
+  border-top: 20px solid #D02506;
+  line-height: 3vw;
+  background-color: #D9D9D9;
+  padding: 2.5% 1% 2.5% 1%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+footer .subtext{
+  font-size: 2vw;
+  padding-top: 1%;
+
+}
+
+.descriptionTxt{
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0px;
+  margin: 0;
+  text-align: left;
+}
+
+h1{
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 12vw;
+  line-height: 12vw;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: lighter;
+  font-size: 5vw;
+  line-height: 0em;
+  padding: 0;
+  margin: 0;
+}
+
+.link-animation {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D02506; 
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.sidebar .link-animation::after {
+  width: 50%;
+}
+
+.sidebar img{
+  height: 80px;
+  width: 80px;
+}
+
+.link-animation:hover::after {
+  transform: scaleX(1);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+  font-family: "Darker Grotesque", sans-serif;
+  line-height:1.5;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.footerTxt {
+  padding: 0;
+  margin: 0;
+}
+.MainContent{
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.MainContent .HeaderTxt {
+  font-size: 2.5vw;
+}
+
+.mainPgWrapper{
+  margin-top: 140px;
+  max-height: 100%;
+  padding-bottom: 20%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.indexmainPgBG{
+  background-image: url("./Images/Bannerphoto.jpg");
+  text-align: center;
+}
+
+.contentSection {
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: Center;
+  padding: 5% 2% 0 5%;
+  gap: 10%;
+}
+
+.contentSection1bg{
+  background-image: url("./Images/MainbgContent.png");
+  padding-bottom: 3%;
+  background-repeat: no-repeat;
+}
+
+.content{
+  margin-top: 20%;
+  max-height: 60%;
+}
+
+.leftsideTxt {
+ max-width: 700px;
+}
+
+.hideondesktop{
+    display: none;
+}
+
+.subSecH1{
+  font-size: 10vw;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.subSecH2 {
+  font-size: 4vw;
+  font-weight: lighter;
+  margin: 0 0 80px 0;
+  line-height: 20px;
+}
+
+.subSectxt {
+  font-size: 2vw;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: lighter;
+  padding-left: 20px;
+  border-left: 30px solid #ffea83;
+}
+
+.subSecLogo{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.membercountSection{
+  font-family: "Darker Grotesque", sans-serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-image: url("./Images/Membercount.jpg"); 
+}
+
+.membercountTXT{
+  margin: 0;
+  line-height: 25vw;
+  color: #F8F8F8;
+  font-size: 30vw;
+  font-weight: 800;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+.membercountSubTXT {
+  margin: 0;
+  font-size: 5vw;
+  margin: 0;
+  color: #F8F8F8;
+  text-align: center;
+}
+
+.anoucementSection {
+  display: block;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.anoucementSubText{
+  padding-top: 30px;
+}
+
+
+.anoucementsubImg{
+  max-width: 300px;
+  width: 25%;
+  padding-left: 3%;
+  padding-right: 3%;
+
+}
+
+.journalIndexSubText{
+  font-weight: lighter;
+  font-size: 2rem;
+  font-family: "Darker Grotesque", sans-serif;
+  text-align: center;
+  padding: 5% 0 10px 0;
+}
+
+.ButtonContainer{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button{
+  font-size: 3vw;
+  font-weight: bolder;
+  min-width: 80px;
+  padding: 5px 45px 5px 45px;
+  border-radius: 50px;
+  font-family: "Darker Grotesque", sans-serif;
+  background-color: #D02506;
+  color: #F8F8F8;
+  transition: transform 0.3s ease; 
+}
+
+
+.contentSection1bg .ButtonContainer{
+  margin: 12% 0 0 0;
+}
+
+.Button:hover{
+  transform: scale(1.1);
+  background-color: #f0735d;
+}
+
+/* FORM */
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formheader{
+  text-align: center;
+}
+
+input[type=submit] {
+    background-color: #D02506;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #f0735d;
+}
+
+.labeltext{
+  font-size: 2.5em;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: lighter;
+  padding: 0;
+}
+
+form .ButtonContainer{
+  margin-top: 50px;
+}
+
+.ContactBottomBanner{
+  max-width: 80%;
+}
+
+.fittext{
+  font-size: 15vw;
+  color: #D02506;
+}
+
+/* 4 Sub Banner */
+.contentSection4bg{
+  background-image: url("Images/OurMission.jpg");
+  object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: right;
+  padding: 5% 10% 10% 0%;
+}
+
+.contentSection4bg .subSecH1{
+  text-wrap: nowrap;
+}
+
+.contentSection4bg .ButtonContainer{
+  margin-top: 7%;
+}
+
+/* 5 Sub-Banner */
+
+.contentSection5{
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  padding:0;
+  gap: 3rem;
+  padding-top: 5%;
+}
+
+.contentSection5bg{
+  background-image: url("./Images/ContentSection5.png");
+  background-repeat: no-repeat;
+}
+
+.contentSection5 .subSecLogoContainer{
+  max-width: 30%;
+  display: flex;
+}
+
+.contentSection5 .leftsideTxt{
+  max-width: 60%;
+}
+
+.contentSection5 .subSecH1{
+  font-size: 15vw;
+  font-weight: 700;
+}
+
+.contentSection5 .subSecH2{
+  margin: 0;
+  line-height: 4vw;
+}
+
+.contentSection5 .leftsideTxt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contentSection5 .subSecLogo{
+  transition: transform .2s;
+}
+
+.contentSection5 img:hover{
+  transform: scale(1.15);
+}
+
+.followUsBtn{
+  padding-bottom: 5%;
+  padding-top: 4%;
+}
+
+#map{}
+#currentEvents{}
+#pastEvents{}
+
+
+/* 6 Sub-Banner */
+.contentSection6{
+  background-image: url("Images/ContentSection6bg.jpg");
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position-y: 20%;
+}
+
+
+/* image slider */
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 80%;
+position: relative;
+margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 65%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 4vw;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+background-color: rgba(0,0,0,0.8);
+color: white;
+font-size: 1.5vw;
+margin-bottom: 3%;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+.text a {
+  color: #ffea83;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #717171;
+}
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+/* ------------------------------------------------CONTACT US------------------------------------------------ */
+/* Contact Us Mainbanner */
+
+.GroupMetxt{
+  margin: 7%;
+}
+
+.contactUsBigBanner{
+  text-align: center;
+  background-image: url("Images/ContactUs.jpg");
+}
+
+.contactUsBigBanner .HeaderTxt{
+  padding: 0;
+  color: black;
+  font-weight: 400;
+}
+
+/* map */
+.mapcontainer{
+  font-family: "Darker Grotesque", sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F8;
+  padding: 5% 0 5% 0;
+  gap: 5%;
+}
+
+.mapcontainer .subSecH1{
+  font-size: 11vw;
+  line-height: 7vw;
+}
+
+.mapcontainer .subSectxt{
+  margin-top: 5%;
+  text-wrap: wrap;
+  max-width: 500px;
+  line-height: 3vw;
+}
+
+/* ------------------------------------------------Events------------------------------------------------ */
+
+/* EVENTS IMG Grid */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  box-sizing: border-box;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+.eventsBanner{
+  background-image: url("Images/EventsBanner.jpg");
+  text-align: center;
+}
+.eventsSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0 0% 0;
+  gap: 10%;
+}
+
+.eventsHeader{
+  text-align: center;
+}
+
+.leftSideHeader{
+  font-size: 4vw;
+  line-height: 4vw;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 0 2%;
+  border-left: 30px solid #ffea83;
+  text-wrap: nowrap;
+}
+
+.eventsSection li{
+  list-style-type: none;
+  font-size: 2vw;
+}
+
+.eventsSection ul{
+  margin-top: 2%;
+  padding-left: 0;
+}
+
+.SectionWrapper{
+  margin: 5% 5% 0 5%;
+  padding-bottom: 5%;
+  border-bottom: 6px solid #D02506;
+}
+
+.first{
+  border-top: 6px solid #D02506;
+}
+
+.eventsImgContainer{
+  max-width: 30%;
+}
+
+.eventsImgContainer img{
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.eventsTxtContainer{
+  max-width: 40%;
+}
+
+.captionTxt{
+  font-size: 1.5vw;
+  padding: 3% 0 0 0;
+}
+
+.captionTxt2{
+  font-size: 2vw;
+  padding: 3% 0 5% 0;
+}
+
+.Upcoming{
+  border-left: 30px solid green;
+}
+
+.Past{
+  border-left: 30px solid #FF96E1;
+}
+
+.HeaderBottom{
+  font-style: italic;
+}
+
+.SectionWrapper .mapcontainer{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.videoContainer{
+  padding-top: 5px;
+  text-align: center;
+}
+
+.videoSection{
+  margin-bottom: 0;
+}
+
+.videoContainer iframe{
+  width: 99%;
+  height: 800px;
+}
+
+.last{
+  border-bottom: none;
+  padding-bottom: 10%;
+}
+
+
+/* ------------------------------------------------Culture------------------------------------------------ */
+.CultureMainBanner{
+  background-image: url("./Images/VSACultureBanner.jpg");
+  text-align: center;
+  background-position-y: -15%;
+}
+
+.cultureCaptionTxt{
+  font-size: 1.5vw;
+  padding: 5%;
+}
+
+.cultureCaptionTxtHeader{
+  font-weight: bold;
+  font-size: 2vw;
+  color: #D02506;
+}
+
+.AboutVietnam{
+  margin-bottom: 5%;
+}
+
+.AboutVietnamHeader{
+  margin-bottom:10%;
+}
+
+.photoSection{
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+/* ------------------------------------------------Eboard------------------------------------------------ */
+
+.EboardMainBanner{
+  background-image: url("./Images/VSAEBboardBanner.jpg");
+  text-align: center;
+  background-position-y: -25%;
+}
+
+.eboardSubTxt{
+  padding-top: 3%;
+}
+
+.eboardcard{
+  margin: 4% 0 4% 0;
+  text-align: center;
+}
+
+.eboardCardContainer{
+  text-align: center;
+  margin-top: 7%;
+  gap:4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.eboardCardContainer H1{
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: lighter;
+}
+
+.eboardCardContainer H2{
+  font-size: 30px;
+  line-height: 1.5vw;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-color: #ffea83;
+  text-underline-offset: 10px;
+}
+
+/* CARD */
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 550px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  display: flex;
+  /* box-sizing: border-box; 
+  border: 4px solid #FFE150; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFF7CF;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back img{
+  max-height: 350px;
+}
+
+.flip-card-back p{
+  font-style: italic;
+  text-align: left;
+  max-width: 330px;
+  font-size: 20px;
+  font-weight: lighter;
+  border-left: 10px solid #D02506;
+  padding: 0 0 0 2%;
+  vertical-align: text-top;
+  margin: 4% 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 1209px){ /*too long nav*/
+
+  .hideondesktop{
+    display: flex;
+  }
+
+  .hideonmobile{
+    display: none;
+    height: 80px;
+    width: 80px;
+  }
+
+  .menubtn img{
+    height: 70px;
+    width: 70px;
+  }
+}
+
+
+@media screen and (max-width: 1000px){ /*complete mobile view*/
+  .sidebar{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    background-color: beige;
+  }
+
+  .sidebar img{
+    height: 80px;
+    width: 80px;
+  }    
+}
+
+/* responsive images */
+main img {
+	width: 100%;
+	min-width: 300px;
+}
+
+/* add media queries to fine tune the layout and sizings */
+@media(max-width: 640px) {
+.hideonmobile{
+  display: none;
+}
+
+.contentSection {
+  display: block;
+}
+
+.Button{
+  font-size: 6vw;
+}
+
+/* 	this is only to show a preview for mobile */
+body::before {
+  background-color: red;
+  color: white;
+  display: block;
+  text-align: center;
+  content: "THIS IS THE MOBILE VIEW";
+}
+
+.subSecH1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.subSecH2 {
+  font-size: 2rem;
+  margin: 0 0 10% 0;
+}
+
+.subSectxt {
+  font-size: 1.3em;
+  border-left: 15px solid #ffea83;
+}
+
+/* NAV BAR  */
+.logoContainer{
+  max-width: 25%;
+}
+
+.navBarSelector {
+  margin: 0px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.navBarLinks{
+  padding-right: 18%;
+  color: black;
+}
+
+/* INDEX Mainbanner */
+.MainContent{
+  margin: 0;
+}
+
+.indexmainPgBG{
+  background-image: url("./Images/Mbl2Bannerphoto.jpg");
+}
+
+.MainContent h1{
+  text-align: center;
+}
+
+.MainContent .HeaderTxt{
+  text-align: center;
+  padding: 0;
+}
+
+/* 1 Sub-Banner */
+
+.contentSection1bg {
+  background-image: url("./Images/MainMblBGContent.png");
+}
+
+/* 2 Sub-Banner */
+.membercountSection{
+  height: 250px;
+}
+
+/* 3 Sub-Banner */
+.anoucementSection{
+  padding-bottom: 10%;
+}
+
+.anoucementsubImg{
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.anoucementSubText{
+  padding-top: 0px;
+}
+
+/* 4 Sub-Banner */
+.contentSection4bg{
+  padding: 0 0 80% 0;
+  justify-content: center;
+}
+
+.contentSection4bg .leftsideTxt{
+  margin-left: 2%;
+  color: white;
+}
+
+.contentSection4bg .subSecH1{
+  font-size: 18vw;
+}
+
+.contentSection4bg .subSectxt{
+  padding-left: 10px;
+  max-width: 300px;
+}
+
+/* 5 Sub-Banner */
+.contentSection5{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.contentSection5bg{
+  background-image: url("./Images/ContentSection5bgmbl.png");
+  background-position: center center;
+}
+
+.contentSection5 .subSecLogoContainer{
+  max-width: 50%;
+  }
+
+footer .footerTxt{
+  font-size: 4.5vw;
+}
+
+footer .subtext{
+  font-size: 4vw;
+}
+
+/* ------------------------------------------------CONTACT US MBL------------------------------------------------ */
+
+
+/* MAP */
+.mapcontainer{
+  flex-direction: column;
+  text-align: center;
+}
+
+.mapcontainer .subSectxt{
+  font-size: 5vw;
+  line-height: 5vw;
+  padding-left: 0;
+  max-width: 300px;
+  margin-bottom: 5%;
+}
+
+
+iframe{
+  max-width: 60%;
+  max-height: 40%;
+}
+
+.videoContainer iframe{
+  max-width: 100%;
+  width: 100%;
+  max-height: 400px;
+}
+/* ------------------------------------------------Events MBL------------------------------------------------ */
+
+.SectionWrapper{
+  display: block;
+}
+
+h1{
+  font-size: 18vw;
+}
+h2{
+  font-size: 10vw;
+  line-height: 10vw;
+}
+
+.eventsSection{
+  flex-direction: column;
+}
+
+.eventsSection li{
+  font-size: 6vw;
+}
+
+.eventsTxtContainer{
+  padding-top: 8%;
+  max-width: 80%;
+}
+
+.leftSideHeader{
+  font-size: 10vw;
+  border-left: 15px solid #ffea83; ;
+  padding: 2.5% 0 2.5% 5%;
+}
+
+.Upcoming{
+  border-left: 15px solid green;
+}
+
+.Past{
+  border-left: 15px solid #FF96E1;
+}
+
+.eventsSection ul{
+  padding-top: 5%;
+  text-align: left;
+}
+
+.captionTxt{
+  font-size: 4vw;
+  padding-top: 3%;
+}
+
+.captionTxt2{
+  font-size: 5vw;
+  padding: 3% 0 5% 0;
+}
+
+.eventsImgContainer{
+  max-width: 60%;
+}
+
+/* ------------------------------------------------CultureMBL------------------------------------------------ */
+
+.cultureCaptionTxtHeader{
+  font-size: 6vw;
+}
+
+.text{
+  margin-bottom: 15%;
+  font-size: 3vw;
+}
+
+
+/* EBOARD */
+.flip-card-back p{
+  font-size: 5vw;
+  max-width: 300px;
+}
+
+.flip-card-front img{
+  width: 350px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 481.5px;
+}
+
+.flip-card-back img{
+  max-height: 250px;
+}
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1209px){
+  .hideondesktop{
+    display: none;
+  }
+}
+
+/* Adding number effect */
+@property --num {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+
